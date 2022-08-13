@@ -161,7 +161,7 @@ while True:
     # Show cards (but keep one dealer card hidden)
     show_some(player_hand, dealer_hand)
     
-    while playing:  # recall this variable from our hit_or_stand function
+    while playing:  # the variable from hit_or_stand function
         
         # Prompt for Player to Hit or Stand
         hit_or_stand(deck, player_hand)
